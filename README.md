@@ -1,3 +1,5 @@
+![go workflow](https://github.com/Marcel1707/CD_go-mux/blob/main/.github/workflows/go.yml/badge.svg)
+
 ## Additional functionality
 
 I added the following two routes to the REST API:
