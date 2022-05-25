@@ -1,4 +1,4 @@
-![go workflow](https://github.com/Marcel1707/CD_go-mux/blob/main/.github/workflows/go.yml/badge.svg)
+![go workflow](https://github.com/Marcel1707/CD_go-mux/actions/workflows/go.yml/badge.svg)
 
 ## Additional functionality
 
