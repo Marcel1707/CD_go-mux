@@ -17,7 +17,7 @@ jobs:
         ports:
           - 5432:5432
         env:
-          POSTGRES_PASSWORD: postgres
+          POSTGRES_PASSWORD: secret
         
     steps:
     - uses: actions/checkout@v3
@@ -32,3 +32,8 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+      
+      env:
+          APP_DB_USERNAME: postgres
+          APP_DB_PASSWORD: secret
+          APP_DB_NAME: postgres
